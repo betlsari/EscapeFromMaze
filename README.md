@@ -8,12 +8,15 @@ Bu simülasyonda:
 ✔️ Tuzaklara düşebilir veya güçlendirici toplayabilir.
 ✔️ Dönen koridorlar nedeniyle labirent yapısı sürekli değişir.
 ✔️ Oyun sonunda ajanların performans istatistikleri kaydedilir.
+
 💠 Kullanılan Teknolojiler ve Veri Yapıları
 🚀 Java 17
 🧱 Stack (Yığın) → Ajanların hareket geçmişi
 🚦 Queue (Kuyruk) → Ajanların tur sıralaması
 🔗 Singly Linked List → Ajanların listelenmesi
 🔄 Circular Linked List → Dönen koridor yapısı
+
+
 🗘️ 2D Array → Labirent ızgarası
 📆 Proje Yapısı
 com/
@@ -41,11 +44,12 @@ com/
 1️⃣ Tüm .java dosyalarını com.escaping.maze paket yapısına uygun yerleştirin.
 2️⃣ Komut satırından derleyin:
 
-javac com/escaping/maze/**/*.java
+-javac com/escaping/maze/**/*.java
 3️⃣ Programı çalıştırın:
 
-java com.escaping.maze.Main
-Main.java içeriği:
+-java com.escaping.maze.Main
+
+*Main.java içeriği:
 public class Main {
     public static void main(String[] args) {
         int mazeWidth = 9;
